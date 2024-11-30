@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo básico do corpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f09f76;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo do cabeçalho e do menu */
+header {
+  background-color: #f06e2c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* Estilo do rodapé */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+
+}
+/* Estilo do rodapé */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0; /* Ajuste o padding conforme necessário */
+  background-color: #333;
+  color: white;
+  margin-top: 20px; /* Adiciona espaço acima do rodapé */
+}
+/* Estilo do formulário de contato */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+form button:hover {
+  background-color: #575757;
+}
+form {
+  margin-top: 20px;
+  margin-bottom: 40px; /* Adiciona espaço abaixo do formulário */
+}
